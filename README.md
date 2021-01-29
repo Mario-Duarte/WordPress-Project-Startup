@@ -20,15 +20,15 @@ There are a few steps to get this up and running but, it's quite simple.
 
 Clone this repo by running `git clone https://github.com/Mario-Duarte/WordPress-Project-Startup.git` and cd into it with `cd WordPress-Project-Startup`.
 
-- Start buy setting your container by running `docker-compose up`, this will install __WordPress__ and set up a database using __MariaDB__, my database of choice for __WordPress__.
+- Start by setting your container by running `docker-compose up`, this will install __WordPress__ and set up a database using __MariaDB__, my database of choice for __WordPress__.
 
 - Once ths is done you should be able to visit `http://localhost` and create your __admin user__ for __WordPress__.
 
-- Then lets setup our custom theme by installing all node packages at the root of the project with `npm install`
+- Then let's setup our custom theme by installing all node packages at the root of the project with `npm install`
 
 - Change your theme name in the main `Gulpfile.js` file on line 32: `themeName: 'sandbox',` to rename your theme folder.
 
-- Run `gulp setup` and this will generate all the folders to get you started with your custom theme. Continue reading bellow for more information abut the structure that is generated and other commands available.
+- Run `gulp setup` and this will generate all the folders to get you started with your custom theme. Continue reading below for more information abut the structure that is generated and other commands available.
 
 ## Setup
 
