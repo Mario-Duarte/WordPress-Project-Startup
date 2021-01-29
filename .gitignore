@@ -1,0 +1,9 @@
+node_modules
+.DS_Store
+.history
+wp-content/
+
+# Uncoment bellow lines as needed
+# depending on your project requirements
+#!wp-content/plugins
+#!wp-content/uploads
