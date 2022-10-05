@@ -1,8 +1,9 @@
 {
     "name": "Gulp-Project-Startup",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "Easy and fast startup your projects with gulp.",
     "main": "Gulpfile.js",
+    "type": "commonjs",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "help": "gulp help"
@@ -18,12 +19,10 @@
     },
     "homepage": "https://github.com/Mario-Duarte/Gulp-Project-Startup",
     "devDependencies": {
-        "@babel/core": "^7.10.5",
-        "@babel/preset-env": "^7.10.4",
+        "@babel/core": "^7.19.3",
+        "@babel/preset-env": "^7.19.3",
         "ansi-colors": "^3.2.4",
-        "babel": "^6.23.0",
         "browser-sync": "^2.26.10",
-        "dart-sass": "^1.25.0",
         "del": "^3.0.0",
         "fancy-log": "^1.3.3",
         "fs-extra": "^8.1.0",
@@ -37,11 +36,11 @@
         "gulp-minify": "^3.1.0",
         "gulp-order": "^1.2.0",
         "gulp-rename": "^1.4.0",
-        "gulp-sass": "^4.1.0",
+        "gulp-sass": "^5.1.0",
         "gulp-strip-css-comments": "^2.0.0",
         "gulp-strip-debug": "^3.0.0",
         "jshint": "^2.11.1",
         "minimist": "^1.2.5",
-        "sass": "^1.26.10"
+        "sass": "^1.55.00"
     }
 }
